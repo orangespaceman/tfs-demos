@@ -1,0 +1,78 @@
+html {
+  background: #efefef;
+  height: 100%;
+}
+
+body {
+  font-family: Georgia, sans-serif;
+  line-height: 1.5;
+  max-width: 900px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.planet {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 325px;
+  width: 325px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.planet-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.planet-image {
+  max-width: 50%;
+}
+
+.planet-circumference,
+.planet-distance {
+  font-style: italic;
+}
+
+.planet-Earth {
+  background: green;
+}
+
+.planet-Mars {
+  background: red;
+}
+
+.search {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.atmosphere-buttons {
+  margin-top: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.currently-selected-button {
+  background: black;
+  color: orange;
+}

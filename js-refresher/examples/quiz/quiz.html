@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="quiz.css" />
+        <script defer src="quiz.js"></script>
+    </head>
+    <body>
+
+        <h1>Quiz</h1>
+
+        <form class="quiz">
+            <div class="quiz-row">
+                <p class="quiz-question">Question 1. Which planet has rings?</p>
+                <div class="quiz-answers">
+                    <label class="quiz-answer">
+                        <input type="radio" name="question-1" value="Saturn" class="quiz-answer-radio">
+                        Saturn
+                    </label>
+                </div>
+                <div class="quiz-answers">
+                    <label class="quiz-answer">
+                        <input type="radio" name="question-1" value="Mercury" class="quiz-answer-radio">
+                        Mercury
+                    </label>
+                </div>
+                <div class="quiz-answers">
+                    <label class="quiz-answer">
+                        <input type="radio" name="question-1" value="Mars" class="quiz-answer-radio">
+                        Mars
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-row">
+                <p class="quiz-question">Question 2. What is the closest planet to the sun?</p>
+                <div class="quiz-answers">
+                    <label class="quiz-answer">
+                        <select name="question-2" class="quiz-answer-select">
+                            <option></option>
+                            <option>Saturn</option>
+                            <option>Mercury</option>
+                            <option>Mars</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-row">
+                <p class="quiz-question">Question 3. Which planet has life?</p>
+                <div class="quiz-answers">
+                    <label class="quiz-answer">
+                        <input type="text" name="question-3" value="" class="quiz-answer-text">
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-buttons">
+                <button type="button" class="quiz-submit">Go!</button>
+                <button type="button" class="quiz-reset">Reset</button>
+            </div>
+        </form>
+
+        <div class="quiz-results">
+            <div class="quiz-result quiz-result-3">
+                <h2 class="quiz-result-title">Well done, you answered all three questions correctly!</h2>
+                <p class="quiz-result-text">You really know your space</p>
+            </div>
+            <div class="quiz-result quiz-result-2">
+                <h2 class="quiz-result-title">Well done, you answered two questions correctly!</h2>
+                <p class="quiz-result-text">You know some things about space</p>
+            </div>
+            <div class="quiz-result quiz-result-1">
+                <h2 class="quiz-result-title">You answered one question correctly</h2>
+                <p class="quiz-result-text">Not bad...</p>
+            </div>
+            <div class="quiz-result quiz-result-0">
+                <h2 class="quiz-result-title">Oh dear, you got all questions wrong!</h2>
+                <p class="quiz-result-text">Better luck next time!</p>
+            </div>
+        </div>
+
+    </body>
+</html>

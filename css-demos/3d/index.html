@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D - CSS demos</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS demos</h1>
+      <h2>3D</h2>
+    </header>
+    <main>
+      <article>
+        <div class="planet">
+            <div class="planet-content">
+                <div class="planet-front"></div>
+                <div class="planet-back">
+                    <h2>Mercury</h2>
+                    <p>The small one</p>
+                </div>
+            </div>
+        </div>
+      </article>
+      <article>
+      <h4>
+        HTML
+      </h4>
+      <pre>
+&lt;div class="planet"&gt;
+    &lt;div class="planet-content"&gt;
+        &lt;div class="planet-front"&gt;&lt;/div&gt;
+        &lt;div class="planet-back"&gt;
+            &lt;h2&gt;Mercury&lt;/h2&gt;
+            &lt;p&gt;The small one&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+      </pre>
+        <h4>
+        CSS
+      </h4>
+      <pre>
+.planet {
+    perspective: 500px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.planet-content {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.planet:hover .planet-content {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+.planet-front,
+.planet-back {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.planet-front {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/480px-Mercury_in_color_-_Prockter07-edit1.jpg');
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-size: 80%;
+}
+
+.planet-back {
+    background: #000000;
+    color: #ffffff;
+    padding: 10px;
+    transform: rotateY( 180deg );
+}
+
+      </pre>
+      </article>
+    </main>
+  </body>
+</html>

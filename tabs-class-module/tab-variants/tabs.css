@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* page content */
+
+html {
+    background: #efefef;
+    height: 100%;
+}
+
+body {
+    font-family: Georgia, sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    margin: 50px;
+}
+
+/* tabs */
+
+.tab-block-left {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #81A4CD;
+}
+
+.tab-block-right {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid #81A4CD;
+}
+
+/* tab buttons */
+
+.tab-buttons {
+    display: flex;
+}
+
+.tab-block-top .tab-buttons {
+    border-bottom: 2px solid #81A4CD;
+}
+
+.tab-block-left .tab-buttons {
+    flex-direction: column;
+    border-right: 2px solid #81A4CD;
+}
+
+.tab-block-right .tab-buttons {
+    flex-direction: column;
+    border-left: 2px solid #81A4CD;
+}
+
+/* tab button */
+
+.tab-button {
+    cursor: pointer;
+    background: none;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 300ms;
+}
+
+.tab-button:hover {
+    background: #DBE4EE;
+}
+
+.tab-block-top .tab-button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid #DBE4EE;
+    border-bottom: none;
+}
+
+.tab-block-left .tab-button,
+.tab-block-right .tab-button {
+    border: none;
+    border-bottom: 2px solid #DBE4EE;
+    flex: 1;
+}
+
+.tab-block-left .tab-button:last-child,
+.tab-block-right .tab-button:last-child {
+    border-bottom: none;
+}
+
+
+.tab-button.currently-selected-tab { /* class added/removed by JavaScript */
+    border-color: #81A4CD;
+    background: #81A4CD;
+}
+
+/* tab content */
+
+.tab-content {
+    font-size: 16px;
+    display: none;
+    align-items: flex-start;
+}
+
+.tab-block-top .tab-content {
+    margin-bottom: 12px;
+}
+
+.tab-block-left .tab-content,
+.tab-block-right .tab-content {
+    padding: 20px;
+}
+
+.tab-content.currently-selected-tab { /* class added/removed by JavaScript */
+    display: flex;
+}
+
+.tab-text {
+    flex: 2;
+}
+
+.tab-image {
+    flex: 1;
+    margin-top: 80px;
+    margin-left: 20px;
+}

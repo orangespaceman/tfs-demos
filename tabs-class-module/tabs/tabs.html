@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Planets of the solar system</title>
+        <link rel="stylesheet" href="tabs.css" />
+        <script defer type="module" src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1>Tabs! (class and module)</h1>
+        </header>
+
+        <div class="tab-block">
+            <nav class="tab-buttons">
+                <button data-tab="mercury" class="tab-button currently-selected-tab">Mercury</button>
+                <button data-tab="venus" class="tab-button">Venus</button>
+                <button data-tab="earth" class="tab-button">Earth</button>
+            </nav>
+
+            <article class="tab-contents">
+                <div data-tab-content="mercury" class="tab-content currently-selected-tab">
+                    <div class="tab-text">
+                        <h2>Mercury</h2>
+                        <p>
+                            Mercury is the smallest and closest planet to the Sun in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς).
+                        </p>
+                    </div>
+                    <div class="tab-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg" alt="Mercury" />
+                        <p>(photo caption)</p>
+                    </div>
+                </div>
+
+                <div data-tab-content="venus" class="tab-content">
+                    <div class="tab-text">
+                        <h2>Venus</h2>
+                        <p>
+                            Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the naked eye in broad daylight.[15][16] Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while before dawn. Venus orbits the Sun every 224.7 Earth days.[17] With a rotation period of 243 Earth days, it takes longer to rotate about its axis than any other planet in the Solar System by far, and does so in the opposite direction to all but Uranus (meaning the Sun rises in the west and sets in the east).[18] Venus does not have any moons, a distinction it shares only with Mercury among the planets in the Solar System.[19]
+                        </p>
+                    </div>
+                    <div class="tab-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg" alt="Venus" />
+                        <p>(photo caption)</p>
+                    </div>
+                </div>
+
+                <div data-tab-content="earth" class="tab-content">
+                    <div class="tab-text">
+                        <h2>Earth</h2>
+                        <p>
+                            Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans, seas, gulfs, and other salt water bodies, but also by lakes, rivers, and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.
+                        </p>
+
+                    </div>
+                    <div class="tab-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth" />
+                        <p>(photo caption)</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <p>(All information borrowed from Wikipedia)</p>
+
+    </body>
+</html>

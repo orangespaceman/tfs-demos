@@ -1,0 +1,17 @@
+/* Content Block Sections */
+.content-block {
+  text-align: center;
+  margin: var(--spacing-m) auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content-block--alt {
+  background-color: var(--colour-background-light);
+}
+
+.content-block__content {
+  width: 100%;
+  max-width: 1200px;
+  padding: var(--spacing-m);
+}

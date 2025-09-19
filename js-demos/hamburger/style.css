@@ -1,0 +1,25 @@
+/* menu toggle */
+
+@media (min-width: 1200px) {
+  /* hide the menu toggle button when there is enough space on screen for full menu */
+  .menu-toggle {
+    display: none;
+  }
+}
+
+/* menu list */
+
+.menu-list {
+  display: none; /* hide the list by default for lower resolutions */
+}
+
+.menu.is-visible .menu-list {
+  display: block; /* display the list when the button is selected */
+}
+
+@media (min-width: 1200px) {
+  /* at larger resolutions show the whole menu in a line, not as a dropdown */
+  .menu-list {
+    display: flex;
+  }
+}

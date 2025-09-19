@@ -1,0 +1,132 @@
+/* Tabs Section */
+@media (min-width: 800px) {
+  .tabs {
+    display: flex;
+  }
+}
+
+/* Tabs - variants */
+.tabs--top {
+  flex-direction: column;
+}
+
+.tabs--bottom {
+  flex-direction: column-reverse;
+}
+
+.tabs--left {
+  flex-direction: row;
+}
+
+.tabs--right {
+  flex-direction: row-reverse;
+}
+
+/* Tab Buttons */
+.tabs__buttons {
+  display: flex;
+}
+
+.tabs--left .tabs__buttons,
+.tabs--right .tabs__buttons {
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Tab Button */
+.tabs__button {
+  cursor: pointer;
+  background: none;
+  padding: 10px;
+  transition: all 300ms;
+  text-align: left;
+  border: none;
+  flex: 1;
+}
+
+.tabs__button:hover,
+.tabs__button--selected {
+  background: #f0ebfa;
+}
+
+.tabs--top .tabs__button {
+  border-right: 1px solid #f0ebfa;
+  border-bottom: 10px solid transparent;
+}
+
+.tabs--top .tabs__button--selected {
+  border-bottom-color: #794cff;
+}
+
+.tabs--bottom .tabs__button {
+  border-right: 1px solid #f0ebfa;
+  border-top: 10px solid transparent;
+}
+
+.tabs--bottom .tabs__button--selected {
+  border-top-color: #794cff;
+}
+
+.tabs--left .tabs__button {
+  border-bottom: 1px solid #f0ebfa;
+  border-right: 10px solid transparent;
+}
+
+.tabs--left .tabs__button--selected {
+  border-right-color: #794cff;
+}
+
+.tabs--right .tabs__button {
+  border-bottom: 1px solid #f0ebfa;
+  border-left: 10px solid transparent;
+}
+
+.tabs--right .tabs__button--selected {
+  border-left-color: #794cff;
+}
+
+.tabs--top .tabs__button:last-child,
+.tabs--bottom .tabs__button:last-child {
+  border-right: none;
+}
+
+.tabs--left .tabs__button:last-child,
+.tabs--right .tabs__button:last-child {
+  border-bottom: none;
+}
+
+.tabs__button-title {
+  font-size: var(--font-size-body);
+  font-weight: bold;
+}
+
+.tabs__button-text {
+  font-size: var(--font-size-body);
+  line-height: var(--font-line-height-body);
+}
+
+/* Tab Contents */
+.tabs__contents {
+  flex: 2;
+}
+
+.tabs__content {
+  font-size: var(--font-size-body);
+  display: none;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.tabs__content--selected {
+  display: flex;
+}
+
+.tabs__text {
+  flex: 2;
+}
+
+.tabs__image {
+  flex: 1;
+  margin-top: 80px;
+  margin-left: 20px;
+}

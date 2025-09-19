@@ -1,0 +1,28 @@
+/* first example */
+
+.transition-1 {
+  color: orange; 
+  transition: all 1s;
+}
+
+.transition-1:hover {
+  color: green;
+}
+
+/* second example */
+
+.transition-2 {
+  background: #003366;
+  color: #ffffff;
+  border: 2px solid #0099ff;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.transition-2:hover {
+  background: #ffffff;
+  color: #003366;
+  border-color: #003366;
+}

@@ -1,0 +1,17 @@
+/* Block */
+.card {
+    border: 1px solid #0099ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Element */
+.card__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card__body {
+    color: #003366;
+}

@@ -1,0 +1,139 @@
+/* header */
+
+.menu-container {
+  display: flex; /* align title and menu/button to sit side-by-side */
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* menu */
+
+.menu {
+  position: relative; /* allow the dropdown list to be positioned below button */
+}
+
+.menu.is-visible {
+  /* any styles for when the dropdown menu should be shown */
+}
+
+
+/* menu toggle */
+
+.menu-toggle {
+  border: 2px solid #036;
+  background: transparent;
+  display: flex; /* display menu button by default, for lower resolutions */
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.menu-toggle:hover,
+.menu.is-visible .menu-toggle {
+  border-color: #f90; /* hover styles, and also when button is selected */
+  background: #036;
+}
+
+@media (min-width: 1200px) {
+  /* hide the menu toggle button when there is enough space on screen for full menu */
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-toggle-text {
+  color: #036;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+
+.menu-toggle:hover .menu-toggle-text,
+.menu.is-visible .menu-toggle-text {
+  color: #f90;
+}
+
+/* menu toggle icon styles */
+
+.menu-toggle-bars {
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+
+.menu-toggle-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #036;
+  transition: all 0.5s;
+}
+
+.menu-toggle:hover .menu-toggle-bar,
+.menu.is-visible .menu-toggle-bar {
+  background: #f90;
+}
+
+.menu-toggle-bar-top {
+  top: 0;
+}
+
+.menu-toggle-bar-middle {
+  top: 50%;
+  margin-top: -1px;
+}
+
+.menu-toggle-bar-bottom {
+  bottom: 0;
+}
+
+/* menu list */
+
+.menu-list {
+  display: none; /* hide the list by default for lower resolutions */
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+
+.menu.is-visible .menu-list {
+  display: block; /* display the list when the button is selected */
+}
+
+@media (min-width: 1200px) {
+  /* at larger resolutions show the whole menu in a line, not as a dropdown */
+  .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+  }
+
+  .menu.is-visible .menu-list {
+    display: flex; /* display the list when the button is selected */
+  }
+}
+
+.menu-item {
+  flex: 1;
+  list-style: none;
+}
+
+.menu-link {
+  background: #f90;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.menu-link:hover {
+  background: #036;
+  color: #f90;
+}

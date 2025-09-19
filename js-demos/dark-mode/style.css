@@ -1,0 +1,29 @@
+:root[colour-mode="light"] {
+  --content-bg: #fff;
+  --text: #333333;
+  --primary: #01408e;
+}
+
+:root[colour-mode="dark"] {
+  --content-bg: #404040;
+  --text: #cccccc;
+  --primary: #8fceff;
+}
+
+body {
+  background-color: var(--content-bg);
+  color: var(--text);
+}
+
+h1,
+a {
+  color: var(--primary);
+}
+
+:root[colour-mode="light"] .hide-when-light {
+  display: none;
+}
+
+:root[colour-mode="dark"] .hide-when-dark {
+  display: none;
+}

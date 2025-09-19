@@ -1,0 +1,28 @@
+/* Header */
+.header {
+  text-align: center;
+  padding: var(--spacing-l) 0;
+  background-color: var(--colour-background-light);
+  border-bottom: 1px solid var(--colour-primary-tint);
+}
+
+.header__title {
+  margin: 0;
+  font-size: var(--font-size-heading-m);
+  color: var(--colour-text-heading);
+}
+
+.header__nav {
+  margin-top: var(--spacing-s);
+}
+
+.header__link {
+  margin: 0 var(--spacing-s);
+  text-decoration: none;
+  color: var(--colour-text-body);
+  font-weight: 600;
+}
+
+.header__link:hover {
+  color: var(--colour-primary);
+}

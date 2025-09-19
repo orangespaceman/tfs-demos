@@ -1,0 +1,71 @@
+/* variable declarations */
+:root {
+  /* named colour values */
+  --colour-white: #ffffff;
+  --colour-black: #000000;
+  --colour-primary: #ff9900;
+  --colour-primary-active: #ff6600;
+
+  /* semantic colour values */
+  --colour-text: var(--colour-black);
+  --colour-background: var(--colour-white);
+
+  /* font families */
+  --font-serif: 'Georgia', serif;
+  --font-sans-serif: 'Helvetica', sans-serif;
+
+  /* font uses */
+  --font-body: var(--font-sans-serif);
+  --font-headings: var(--font-serif);
+
+  /* font weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* font sizes */
+  --font-size-large: 1.6rem;
+  --font-size-default: 1rem;
+
+  /* line-heights */
+  --line-height-large: 2.4rem;
+  --line-height-default: 1.6rem;
+
+  /* border radius */
+  --border-radius-full: 9999px;
+  --border-radius-rounded: 1rem;
+
+  /* transitions */
+  --transition-time: 0.25s;
+
+  /* margins and spacing */
+  --gutter-half: 0.5rem;
+  --gutter: 1rem;
+}
+
+/* variable uses */
+
+.block {
+  background: var(--colour-background);
+  color: var(--colour-text);
+  font-family: var(--font-body);
+}
+
+/* headings */
+
+.block h1,
+.block h2,
+.block h3,
+.block h4 {
+  font-family: var(--font-headings);
+  font-weight: var(--font-weight-bold);
+  color: var(--colour-primary);
+  margin: var(--gutter) 0;
+}
+
+/* text */
+
+.block p {
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-default);
+  margin: var(--gutter-half) 0;
+}

@@ -1,0 +1,24 @@
+/* Testimonial Section */
+.testimonial {
+}
+
+.testimonial__title {
+  font-size: var(--font-size-heading-m);
+  margin-bottom: var(--spacing-l);
+  color: var(--colour-text-heading);
+}
+
+.testimonial__items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: var(--spacing-m);
+}
+
+.testimonial__item {
+  flex: 1 1 calc(33% - var(--spacing-m));
+  background-color: var(--colour-primary-tint);
+  padding: var(--spacing-s);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}

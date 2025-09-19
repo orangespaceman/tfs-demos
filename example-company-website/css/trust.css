@@ -1,0 +1,24 @@
+/* Trust Section */
+.trust {
+}
+
+.trust__title {
+  font-size: var(--font-size-heading-m);
+  margin-bottom: var(--spacing-l);
+  color: var(--colour-text-heading);
+}
+
+.trust__items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: var(--spacing-m);
+}
+
+.trust__item {
+  flex: 1 1 calc(25% - var(--spacing-m));
+  background-color: var(--colour-primary-tint);
+  padding: var(--spacing-s);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}

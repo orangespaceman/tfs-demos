@@ -1,0 +1,46 @@
+:root[colour-mode="light"] {
+  --page-bg: #e6e6e6;
+  --content-bg: #fff;
+  --text: #333333;
+  --primary: #01408e;
+}
+
+:root[colour-mode="dark"] {
+  --page-bg: #222;
+  --content-bg: #404040;
+  --text: #cccccc;
+  --primary: #8fceff;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: var(--page-bg);
+}
+
+body {
+  font-family: Georgia, sans-serif;
+  line-height: 1.5;
+  max-width: 600px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--content-bg);
+  color: var(--text);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 1s;
+}
+
+h1,
+a {
+  color: var(--primary);
+}
+
+:root[colour-mode="light"] .hide-when-light {
+  display: none;
+}
+
+:root[colour-mode="dark"] .hide-when-dark {
+  display: none;
+}

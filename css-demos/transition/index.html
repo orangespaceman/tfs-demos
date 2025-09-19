@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transition - CSS demos</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS demos</h1>
+      <h2>Transition</h2>
+    </header>
+    <main>
+      <article>
+        <p>
+          <a class="transition-1" href="#">Hover over this link</a>
+        </p>
+        <p>
+          <a class="transition-2" href="#">Hover over this box</a>
+        </p>
+      </article>
+      <article>
+      <h4>
+        HTML
+      </h4>
+      <pre>
+&lt;a class="transition-1" href="#"&gt;Hover over this link&lt;/a&gt;
+      </pre>
+        <h4>
+        CSS
+      </h4>
+      <pre>
+.transition-1 {
+  color: orange;
+  transition: all 1s;
+}
+
+.transition-1:hover {
+  color: green;
+}
+      </pre>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+[
+  {
+      "name": "Mercury",
+      "circumference": "2,500 km",
+      "distanceFromSun": "57,000,000 km",
+      "hasLife": false,
+      "majorMoons": [],
+      "atmosphere": []
+  },
+  {
+      "name": "Venus",
+      "circumference": "28,000 km",
+      "distanceFromSun": "108,000,000 km",
+      "hasLife": false,
+      "majorMoons": [],
+      "atmosphere": ["Carbon Dioxide"]
+  },
+  {
+      "name": "Earth",
+      "circumference": "40,000 km",
+      "distanceFromSun": "150,000,000 km",
+      "hasLife": true,
+      "majorMoons": ["The moon"],
+      "atmosphere": ["Nitrogen", "Oxygen"]
+  },
+  {
+      "name": "Mars",
+      "circumference": "227,000,000km",
+      "distanceFromSun": "21,000km",
+      "hasLife": false,
+      "majorMoons": ["Phobos", "Deimos"],
+      "atmosphere": ["Carbon Dioxide"]
+  },
+  {
+      "name": "Jupiter",
+      "circumference": "779,000,000km",
+      "distanceFromSun": "440,000km",
+      "hasLife": false,
+      "majorMoons": ["Io", "Europa", "Ganymede", "Calisto"],
+      "atmosphere": ["Hydrogen", "Helium"]
+  },
+  {
+      "name": "Saturn",
+      "circumference": "1,430,000,000km",
+      "distanceFromSun": "365,000km",
+      "hasLife": false,
+      "majorMoons": ["Titan"],
+      "atmosphere": ["Hydrogen", "Helium"]
+  },
+  {
+      "name": "Uranus",
+      "circumference": "2,880,000,000km",
+      "distanceFromSun": "160,000km",
+      "hasLife": false,
+      "majorMoons": ["Puck", "Miranda", "Ariel", "Umbriel", "Titania", "Oberon"],
+      "atmosphere": ["Hydrogen", "Helium"]
+  },
+  {
+      "name": "Neptune",
+      "circumference": "4,500,000,000km",
+      "distanceFromSun": "154,000km",
+      "hasLife": false,
+      "majorMoons": ["Triton"],
+      "atmosphere": ["Hydrogen", "Helium"]
+  }
+]

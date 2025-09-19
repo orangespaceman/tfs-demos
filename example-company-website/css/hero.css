@@ -1,0 +1,20 @@
+/* Hero */
+.hero {
+}
+
+.hero__title {
+  font-size: var(--font-size-heading-l);
+  margin-bottom: var(--spacing-m);
+  color: var(--colour-text-heading);
+}
+
+.hero__subtitle {
+  font-size: var(--font-size-body);
+  color: var(--colour-text-body);
+  margin-bottom: var(--spacing-m);
+}
+
+.hero__image {
+  width: 100%;
+  max-width: 800px;
+}

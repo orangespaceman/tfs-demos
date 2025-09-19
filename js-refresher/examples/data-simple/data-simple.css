@@ -1,0 +1,58 @@
+p {
+    margin: 0;
+}
+
+.planet {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.planet:hover {
+    background: lightgrey;
+    text-decoration: underline;
+    color: blue;
+}
+
+.planet-image {
+    max-width: 50%;
+}
+
+.planet-name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.planet-circumference,
+.planet-distance {
+    font-style: italic;
+}
+
+/* Exercise 1 styles */
+
+.planet-Earth {
+    background: green;
+}
+
+.planet-Mars {
+    background: red;
+}
+
+/* Exercise 2 styles */
+
+.planet-earth {
+    background: green;
+}
+
+.planet-mars {
+    background: red;
+}

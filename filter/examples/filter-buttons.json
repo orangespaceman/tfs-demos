@@ -1,0 +1,90 @@
+[
+  {
+      "name": "Mercury",
+      "class": "mercury",
+      "circumference": "2,500 km",
+      "distanceFromSun": "57,000,000 km",
+      "hasLife": false,
+      "majorMoons": [],
+      "atmosphere": [],
+      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg"
+  },
+  {
+      "name": "Venus",
+      "class": "venus",
+      "circumference": "28,000 km",
+      "distanceFromSun": "108,000,000 km",
+      "hasLife": false,
+      "majorMoons": [],
+      "atmosphere": ["Carbon Dioxide"],
+      "url": "https://en.wikipedia.org/wiki/Venus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg"
+  },
+  {
+      "name": "Earth",
+      "class": "earth",
+      "circumference": "40,000 km",
+      "distanceFromSun": "150,000,000 km",
+      "hasLife": true,
+      "majorMoons": ["The moon"],
+      "atmosphere": ["Nitrogen", "Oxygen"],
+      "url": "https://en.wikipedia.org/wiki/Earth",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg"
+  },
+  {
+      "name": "Mars",
+      "class": "mars",
+      "circumference": "227,000,000km",
+      "distanceFromSun": "21,000km",
+      "hasLife": false,
+      "majorMoons": ["Phobos", "Deimos"],
+      "atmosphere": ["Carbon Dioxide"],
+      "url": "https://en.wikipedia.org/wiki/Mars",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg"
+  },
+  {
+      "name": "Jupiter",
+      "class": "jupiter",
+      "circumference": "779,000,000km",
+      "distanceFromSun": "440,000km",
+      "hasLife": false,
+      "majorMoons": ["Io", "Europa", "Ganymede", "Calisto"],
+      "atmosphere": ["Hydrogen", "Helium"],
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg"
+  },
+  {
+      "name": "Saturn",
+      "class": "saturn",
+      "circumference": "1,430,000,000km",
+      "distanceFromSun": "365,000km",
+      "hasLife": false,
+      "majorMoons": ["Titan"],
+      "atmosphere": ["Hydrogen", "Helium"],
+      "url": "https://en.wikipedia.org/wiki/Saturn",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg"
+  },
+  {
+      "name": "Uranus",
+      "class": "uranus",
+      "circumference": "2,880,000,000km",
+      "distanceFromSun": "160,000km",
+      "hasLife": false,
+      "majorMoons": ["Puck", "Miranda", "Ariel", "Umbriel", "Titania", "Oberon"],
+      "atmosphere": ["Hydrogen", "Helium"],
+      "url": "https://en.wikipedia.org/wiki/Uranus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg"
+  },
+  {
+      "name": "Neptune",
+      "class": "neptune",
+      "circumference": "4,500,000,000km",
+      "distanceFromSun": "154,000km",
+      "hasLife": false,
+      "majorMoons": ["Triton"],
+      "atmosphere": ["Hydrogen", "Helium"],
+      "url": "https://en.wikipedia.org/wiki/Neptune",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg"
+  }
+]

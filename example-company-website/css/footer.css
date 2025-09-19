@@ -1,0 +1,17 @@
+/* Footer */
+.footer {
+  text-align: center;
+  padding: var(--spacing-m) var(--spacing-s);
+  background-color: var(--colour-background-dark);
+  color: #fff;
+}
+
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 var(--spacing-xs);
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}

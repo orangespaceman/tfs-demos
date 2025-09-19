@@ -1,0 +1,23 @@
+/* Delivery Section */
+.delivery {
+}
+
+.delivery__title {
+  font-size: var(--font-size-body);
+  text-transform: uppercase;
+  color: var(--colour-text-body);
+  margin-bottom: var(--spacing-l);
+}
+
+.delivery__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .delivery__logos {
+    flex-direction: row;
+  }
+}

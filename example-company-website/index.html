@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets Overnight</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">petsovernight.com</h1>
+      <nav class="header__nav">
+        <a href="#" class="header__link">Home</a>
+        <a href="#" class="header__link">Products</a>
+        <a href="#" class="header__link">About</a>
+      </nav>
+    </header>
+
+    <div class="content-block">
+      <div class="content-block__content">
+        <div class="hero">
+          <h2 class="hero__title">Want a pet? <br />Have one delivered!</h2>
+          <p class="hero__subtitle">No animal too big, no animal too small*</p>
+          <img
+            class="hero__image"
+            src="images/cow.png"
+            alt="Cow grazing in a field"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <div class="content-block__content">
+        <div class="delivery">
+          <h2 class="delivery__title">
+            We deliver to anyone, no questions asked
+          </h2>
+          <div class="delivery__logos">
+            <img class="delivery__logo" src="images/logo-airbnb.png" alt="" />
+            <img class="delivery__logo" src="images/logo-facebook.png" alt="" />
+            <img class="delivery__logo" src="images/logo-google.png" alt="" />
+            <img class="delivery__logo" src="images/logo-hubspot.png" alt="" />
+            <img class="delivery__logo" src="images/logo-slack.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block content-block--alt">
+      <div class="content-block__content">
+        <div class="animals">
+          <div class="tabs tabs--right">
+            <nav class="tabs__buttons">
+              <button
+                data-tab="cats"
+                class="tabs__button tabs__button--selected"
+              >
+                <p class="tabs__button-title">Cats</p>
+                <p class="tabs__button-text">We deliver cats</p>
+              </button>
+              <button data-tab="cows" class="tabs__button">
+                <p class="tabs__button-title">Cows</p>
+                <p class="tabs__button-text">We sell cows too</p>
+              </button>
+              <button data-tab="horses" class="tabs__button">
+                <p class="tabs__button-title">Horses</p>
+                <p class="tabs__button-text">Who wouldn't want a horse?</p>
+              </button>
+              <button data-tab="dogs" class="tabs__button">
+                <p class="tabs__button-title">Dogs</p>
+                <p class="tabs__button-text">
+                  Outside of a dog, a book is a person's best friend. Inside of
+                  a dog it's too dark to read
+                </p>
+              </button>
+            </nav>
+
+            <article class="tabs__contents">
+              <div
+                data-tab-content="cats"
+                class="tabs__content tabs__content--selected"
+              >
+                <div class="tabs__image">
+                  <img src="images/cat.png" alt="Cat" />
+                </div>
+              </div>
+
+              <div data-tab-content="cows" class="tabs__content">
+                <div class="tabs__image">
+                  <img src="images/cow-2.png" alt="Cow" />
+                </div>
+              </div>
+
+              <div data-tab-content="horses" class="tabs__content">
+                <div class="tabs__image">
+                  <img src="images/horse.png" alt="Horse" />
+                </div>
+              </div>
+
+              <div data-tab-content="dogs" class="tabs__content">
+                <div class="tabs__image">
+                  <img src="images/dog.png" alt="Dog" />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <div class="content-block__content">
+        <div class="trust">
+          <h3 class="trust__title">Here are some facts to make you trust us</h3>
+          <div class="trust__items">
+            <div class="trust__item">
+              <p>Graphs</p>
+            </div>
+            <div class="trust__item">
+              <p>Diaries</p>
+            </div>
+            <div class="trust__item">
+              <p>Learning Things</p>
+            </div>
+            <div class="trust__item">
+              <p>Talking</p>
+            </div>
+            <div class="trust__item">
+              <p>Family trees</p>
+            </div>
+            <div class="trust__item">
+              <p>Tools</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block content-block--alt">
+      <div class="content-block__content">
+        <div class="cta">
+          <div class="cta__content">
+            <h3 class="cta__title">Free caterpillar with every order</h3>
+            <p class="cta__subtitle">
+              Have you ever thought about what a strange word caterpillar is?
+            </p>
+            <button class="cta__button">Get your free caterpillar here</button>
+          </div>
+          <img
+            class="cta__img"
+            src="images/caterpillar.png"
+            alt="Caterpillar"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <div class="content-block__content">
+        <div class="testimonial">
+          <h3 class="testimonial__title">What people think about us</h3>
+
+          <div class="tabs tabs--bottom">
+            <nav class="tabs__buttons">
+              <button
+                data-tab="dave"
+                class="tabs__button tabs__button--selected"
+              >
+                <p class="tabs__button-title">Dave</p>
+                <p class="tabs__button-text">Bought a cat</p>
+              </button>
+              <button data-tab="geoffrey" class="tabs__button">
+                <p class="tabs__button-title">Geoffrey</p>
+                <p class="tabs__button-text">Bought a horse</p>
+              </button>
+              <button data-tab="beatrice" class="tabs__button">
+                <p class="tabs__button-title">Princess Beatrice</p>
+                <p class="tabs__button-text">Bought the company</p>
+              </button>
+            </nav>
+
+            <article class="tabs__contents">
+              <div
+                data-tab-content="dave"
+                class="tabs__content tabs__content--selected"
+              >
+                <div class="tabs__text">
+                  <p>
+                    "I have no idea how this company is still operating, but as
+                    long as they stay cheap we'll keep using them"
+                  </p>
+                </div>
+              </div>
+
+              <div data-tab-content="geoffrey" class="tabs__content">
+                <div class="tabs__text">
+                  <p>
+                    "I love horses, best of all the animals. I love horses,
+                    they're my friends"
+                  </p>
+                </div>
+              </div>
+
+              <div data-tab-content="beatrice" class="tabs__content">
+                <div class="tabs__text">
+                  <p>
+                    "Listen, I don't want to provide you with a testimonial,
+                    please can you stop calling me or I'll set my uncle on you"
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <div class="content-block__content">
+        <div class="stats">
+          <h3 class="stats__title">
+            84.7% of statistics are made up on the spot
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2025 petsovernight.com</p>
+      <nav>
+        <a href="#" class="footer__link">About Us</a>
+        <a href="#" class="footer__link">Contact Us</a>
+        <a href="#" class="footer__link">Privacy Policy</a>
+      </nav>
+    </footer>
+  </body>
+</html>

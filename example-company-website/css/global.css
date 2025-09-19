@@ -1,0 +1,40 @@
+/* Variables */
+:root {
+  --colour-primary: #796eff;
+  --colour-primary-tint: #f6f3fc;
+  --colour-background-light: #fbfafe;
+  --colour-background-dark: #1d2830;
+  --colour-text-heading: #35414b;
+  --colour-text-body: #4e5a65;
+
+  --spacing-xs: 8px;
+  --spacing-s: 16px;
+  --spacing-m: 24px;
+  --spacing-l: 32px;
+  --spacing-xl: 48px;
+
+  --font-size-heading-xl: 64px;
+  --font-size-heading-l: 40px;
+  --font-size-heading-m: 32px;
+  --font-size-body: 16px;
+  --font-line-height-heading: 1.2;
+  --font-line-height-body: 1.5;
+
+  --border-radius: 12px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styles */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--colour-text-body);
+  font-size: var(--font-size-body);
+  line-height: var(--font-line-height-body);
+}
+
+img {
+  max-width: 100%;
+}

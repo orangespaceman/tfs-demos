@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BEM - CSS demos</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS demos</h1>
+      <h2>BEM</h2>
+    </header>
+    <main>
+      <article>
+        <div class="card">
+            <h2 class="card__title">Card Title</h2>
+            <div class="card__body">
+                <p>This is the content of the card.</p>
+            </div>
+        </div>
+      </article>
+      <article>
+      <h4>
+        HTML
+      </h4>
+      <pre>
+&lt;div class="card"&gt;
+    &lt;h2 class="card__title"&gt;Card Title&lt;/h2&gt;
+    &lt;div class="card__body"&gt;
+        &lt;p&gt;This is the content of the card.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+      </pre>
+        <h4>
+        CSS
+      </h4>
+      <pre>
+/* Block */
+.card {
+    border: 1px solid #0099ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Element */
+.card__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card__body {
+    color: #003366;
+}
+      </pre>
+      </article>
+    </main>
+  </body>
+</html>
