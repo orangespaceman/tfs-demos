@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+}
+
+li {
+    font-size: 1.4em;
+}
+
+a {
+  color: green;
+}
+
+.fact {
+    color: red;
+}
+
+.incredible {
+    font-weight: bold;
+    font-size: 30px;
+}

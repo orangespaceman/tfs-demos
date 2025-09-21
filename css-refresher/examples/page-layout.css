@@ -1,0 +1,29 @@
+header,
+nav,
+article,
+aside,
+footer {
+    margin-bottom: 2.5%;
+    padding: 5%;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+header,
+footer {
+    background: #efefef;
+}
+nav {
+    padding: 1%;
+}
+main {
+    display: flex;
+}
+article {
+    min-height: 200px;
+    flex: 3;
+}
+aside {
+    background: #ddd;
+    min-height: 200px;
+    flex: 1
+}

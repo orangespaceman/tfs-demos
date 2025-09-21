@@ -4,8 +4,10 @@ Demos and challenges for the TechNative Tech Finishing School (tfs)
 
 ## HTML/CSS
 
-- [Space adventures](./space-adventures/space-adventures.md)
+- [HTML refresher](./html-refresher/html-refresher.md)
+- [CSS refresher](./css-refresher/css-refresher.md)
 - [CSS demos](./css-demos/css-demos.md)
+- [Space adventures](./space-adventures/space-adventures.md)
 - [Example company website](./example-company-website/)
 
 ## JavaScript

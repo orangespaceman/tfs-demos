@@ -1,0 +1,19 @@
+body {
+    background: red;
+}
+
+.wide {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    body {
+        background: green;
+    }
+    .narrow {
+        display: none;
+    }
+    .wide {
+        display: block;
+    }
+}

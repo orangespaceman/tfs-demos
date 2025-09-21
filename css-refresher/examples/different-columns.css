@@ -1,0 +1,17 @@
+.column {
+  background: rgb(200 200 200 / 0.6);
+  outline: 1px solid #999;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.column-one {
+  flex: 3;
+}
+
+.column-two {
+  flex: 1;
+}

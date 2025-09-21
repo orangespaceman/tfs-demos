@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    margin-bottom: 2.5%;
+    padding: 1% 5%;
+    background: #efefef;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+article,
+aside {
+    margin-bottom: 2.5%;
+    padding: 5%;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+aside {
+    background: #ddd;
+}
+
+@media (min-width: 900px) {
+    main {
+        display: flex;
+    }
+    article {
+        flex: 4;
+    }
+    aside {
+        flex: 1;
+    }
+}

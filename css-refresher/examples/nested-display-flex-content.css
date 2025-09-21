@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+/* planets */
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* planets */
+
+.planet {
+  width: 50%;
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  .planet {
+      width: 25%;
+  }
+}
+
+.planet-link {
+  color: #000;
+}
+
+.planet-link:hover {
+  color: #999;
+}
+
+.planet-image {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.planet-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.planet-details {
+  font-style: italic;
+  font-size: 12px;
+  margin: 0;
+}
+

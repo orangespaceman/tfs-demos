@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+article,
+aside,
+footer {
+    margin-bottom: 2.5%;
+    padding: 5%;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+header,
+footer {
+    background: #efefef;
+}
+nav {
+    padding: 0;
+}
+main {
+    display: flex;
+    gap: 20px;
+}
+article {
+    flex: 3;
+}
+aside {
+    background: #ddd;
+    flex: 1;
+}
+
+.planets {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.planet {
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-item {
+    flex: 1;
+}
+
+.navigation-link {
+    background: orange;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+.navigation-link:hover {
+    background: green;
+    color: yellow;
+    text-decoration: none;
+}
+
