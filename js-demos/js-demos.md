@@ -1,4 +1,4 @@
-# CSS Demos
+# JS Demos
 ---
 
 This document contains links to multiple JS demos discussed during the Tech Finishing School.
