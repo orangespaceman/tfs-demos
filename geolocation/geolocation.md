@@ -289,9 +289,9 @@ console.log(distance); // 17.412
 
 If you get stuck you can find the example files here:
 
-- [HTML](./examples/geolocation/map/index.html)
-- [CSS](./examples/geolocation/map/style.css)
-- [JS](./examples/geolocation/map/geolocation.js)
+- [HTML](./examples/geolocation/distance/index.html)
+- [CSS](./examples/geolocation/distance/style.css)
+- [JS](./examples/geolocation/distance/geolocation.js)
 
 
 ### Example 3: Plotting latitude and longitude on a map
@@ -302,9 +302,9 @@ This example uses [leaflet.js](https://leafletjs.com/) to create a map and drop 
 
 If you get stuck you can find the example files here:
 
-- [HTML](./examples/geolocation/distance/index.html)
-- [CSS](./examples/geolocation/distance/style.css)
-- [JS](./examples/geolocation/distance/geolocation.js)
+- [HTML](./examples/geolocation/map/index.html)
+- [CSS](./examples/geolocation/map/style.css)
+- [JS](./examples/geolocation/map/geolocation.js)
 
 
 ### Further ideas
