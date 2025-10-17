@@ -7,10 +7,10 @@ These notes explain what a web API is and why you might build one before moving 
 Examples use JSON and a simple space theme with **planets**, **moons**, and **missions**.
 
 **Helpful references**
-- HTTP overview on MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
-- What is an API on MDN: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
-- REST glossary on MDN: https://developer.mozilla.org/en-US/docs/Glossary/REST
-- JSON introduction: https://www.json.org/json-en.html
+- [HTTP overview on MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [What is an API on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+- [REST glossary on MDN](https://developer.mozilla.org/en-US/docs/Glossary/REST)
+- [JSON introduction](https://www.json.org/json-en.html)
 
 ---
 
@@ -33,8 +33,8 @@ Why teams build an API
 A good API is predictable, well documented, and hard to misuse
 
 **Read more**
-- What is a web API: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
-- JSON basics on MDN: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+- [What is a web API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+- [JSON basics on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 
 ---
 
@@ -49,8 +49,8 @@ A useful mental model is a polite conversation
 - Server replies with a **status code** that says how it went and possibly a body with data or error details
 
 **Read more**
-- Client-server model: https://en.wikipedia.org/wiki/Client%E2%80%93server_model
-- What is a URL: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL
+- [Client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+- [What is a URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL)
 
 ---
 
@@ -69,8 +69,8 @@ Why REST is popular
 - It works well with the web infrastructure you already have
 
 **Read more**
-- REST glossary on MDN: https://developer.mozilla.org/en-US/docs/Glossary/REST
-- REST overview on Wikipedia: https://en.wikipedia.org/wiki/Representational_state_transfer
+- [REST glossary on MDN](https://developer.mozilla.org/en-US/docs/Glossary/REST)
+- [REST overview on Wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
 ---
 
@@ -123,9 +123,9 @@ Key terms
 - **Status code** is a three digit number in the response that tells you the outcome at a glance
 
 **Read more**
-- HTTP overview: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
-- HTTP headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
-- Content types: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+- [HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [Content types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
 
 ---
 
@@ -144,7 +144,7 @@ Two useful properties
 - **Idempotent** means repeating the same request ends in the same state. PUT and DELETE are idempotent. POST is not
 
 **Read more**
-- HTTP methods on MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+- [HTTP methods on MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 ---
 
@@ -174,8 +174,8 @@ Server problems
 - **503 Service Unavailable** during maintenance or dependency outages
 
 **Read more**
-- Status codes on MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-- 418 explanation on MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/418
+- [Status codes on MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [418 explanation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/418)
 
 ---
 
@@ -195,9 +195,9 @@ Keep JSON simple and stable. Use predictable field names and types.
 Use ISO 8601 date strings such as `1610-01-07`
 
 **Read more**
-- Content negotiation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation
-- JSON format: https://www.json.org/json-en.html
-- Date and time string format ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
+- [Content negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)
+- [JSON format](https://www.json.org/json-en.html)
+- [Date and time string format ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 
 ---
 
@@ -237,8 +237,8 @@ Simple path rules
 - Consider adding a version number prefix such as `/v1` - this allows you to upgrade the API in future with breaking changes
 
 **Read more**
-- URL basics: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL
-- API design guidance from Google style guide for naming inspiration: https://cloud.google.com/apis/design/naming_conventions
+- [URL basics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL)
+- [API design guidance from Google style guide for naming inspiration](https://cloud.google.com/apis/design/naming_conventions)
 
 ---
 
@@ -295,7 +295,7 @@ Content-Type: application/json
 ```
 
 **Read more**
-- Pagination patterns overview: https://developer.mozilla.org/en-US/docs/Glossary/Chunked_transfer_encoding#pagination_and_chunked_responses
+- [Pagination patterns overview](https://developer.mozilla.org/en-US/docs/Glossary/Chunked_transfer_encoding#pagination_and_chunked_responses)
 
 ---
 
@@ -314,8 +314,8 @@ Use query parameters for common collection concerns
 
 
 **Read more**
-- Query strings on MDN: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL#parameters
-- Designing filter parameters tips: https://cloud.google.com/apis/design/design_patterns#list_pagination
+- [Query strings on MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL#parameters)
+- [Designing filter parameters tips](https://cloud.google.com/apis/design/design_patterns#list_pagination)
 
 ---
 
@@ -345,7 +345,7 @@ Use status codes:
 - **415** for wrong content types
 
 **Read more**
-- MDN on 4xx responses: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+- [MDN on 4xx responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses)
 
 ---
 
@@ -361,10 +361,10 @@ Common approaches
 Return **401** for missing or invalid credentials and **403** when authenticated but not allowed
 
 **Read more**
-- HTTP authentication on MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication
-- OAuth 2.0 overview: https://oauth.net/2/
-- CSRF explained on MDN: https://developer.mozilla.org/en-US/docs/Glossary/CSRF
-- JWT introduction: https://jwt.io/introduction
+- [HTTP authentication on MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
+- [OAuth 2.0 overview](https://oauth.net/2/)
+- [CSRF explained on MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSRF)
+- [JWT introduction](https://jwt.io/introduction)
 
 ---
 
@@ -431,9 +431,9 @@ components:
 ```
 
 **Read more**
-- OpenAPI Specification: https://spec.openapis.org/oas/latest.html
-- Swagger UI: https://swagger.io/tools/swagger-ui/
-- Redoc: https://redocly.com/redoc/
+- [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+- [Swagger UI](https://swagger.io/tools/swagger-ui/)
+- [Redoc](https://redocly.com/redoc/)
 
 ---
 
@@ -472,7 +472,7 @@ async function createPlanet(req, res) {
 ```
 
 **Read more**
-- Express guides: https://expressjs.com/en/guide/routing.html
+- [Express guides](https://expressjs.com/en/guide/routing.html)
 
 ---
 
@@ -483,8 +483,8 @@ async function createPlanet(req, res) {
 - For cookie sessions set `HttpOnly`, `Secure`, and an appropriate `SameSite` value.
 
 **Read more**
-- OWASP API Security Top 10: https://owasp.org/API-Security/
-- RateLimit header fields RFC 9238: https://www.rfc-editor.org/rfc/rfc9238
+- [OWASP API Security Top 10](https://owasp.org/API-Security/)
+- [RateLimit header fields RFC 9238](https://www.rfc-editor.org/rfc/rfc9238)
 
 ---
 
@@ -496,8 +496,8 @@ async function createPlanet(req, res) {
 - Choose one pagination style and use it everywhere
 
 **Read more**
-- API design patterns overview: https://cloud.google.com/apis/design
-- A style guide for SQL and naming inspiration for payloads: https://www.sqlstyle.guide/
+- [API design patterns overview](https://cloud.google.com/apis/design)
+- [A style guide for SQL and naming inspiration for payloads](https://www.sqlstyle.guide/)
 
 ---
 
