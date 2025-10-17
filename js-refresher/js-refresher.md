@@ -1681,7 +1681,7 @@ This creates a variable called `planetElements` which is a *collection* (or *arr
 
 ### `foreach` loops
 
-We can now do something with this collection — we can run a function for each of the four HTML elements that were found in our example HTML above.
+We can now do something with this collection - we can run a function for each of the four HTML elements that were found in our example HTML above.
 
 We will use `forEach` to do this - something we first learnt about earlier:
 

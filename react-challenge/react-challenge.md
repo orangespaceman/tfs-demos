@@ -1,6 +1,6 @@
-# React playground
+# React challenge
 
-We’re going to set up a new React app. At the end of this tutorial we'll be ready to add some examples of the React logic and functionality that we've been learning.
+We’re going to set up a new React app. Then we'll be ready to add some examples of the React logic and functionality that we've been learning.
 
 
 ## Creating a new React App
@@ -15,18 +15,18 @@ cd path/to/a/folder
 
 Next, we can either use [Vite](https://vite.dev/) or [Create React App](https://create-react-app.dev/) to generate our new project.
 
-We can call the project whatever we like, for this tutorial we will call it `react-playground`.
+We can call the project whatever we like, for this tutorial we will call it `react-challenge`.
 
 If you want to use Vite (recommended), use the following command:
 
 ```bash
-npm create vite@latest react-playground -- --template react
+npm create vite@latest react-challenge -- --template react
 ```
 
 If you want to use Create React App, use the following command:
 
 ```bash
-npx create-react-app react-playground
+npx create-react-app react-challenge
 ```
 
 In the terminal we may be asked some questions, it's usually fine to accept the default options.
@@ -34,7 +34,7 @@ In the terminal we may be asked some questions, it's usually fine to accept the 
 Next we'll navigate into the new folder:
 
 ```bash
-cd react-playground
+cd react-challenge
 ```
 
 Depending on which of the two commands you used above, you may have to install dependencies with `npm install`
@@ -100,16 +100,16 @@ That may be enough to get prettier running on save. If it doesn't, we may also n
 
 ```
 {
-  "editor.formatOnSave": true,
-  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "[javascript]": {
+        "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true,
+    },
+    "[css]": {
+        "editor.formatOnSave": true,
+    }
 }
 ```
 

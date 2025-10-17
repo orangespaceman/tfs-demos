@@ -23,9 +23,29 @@ Demos and challenges for the TechNative Tech Finishing School (tfs)
 
 ## React
 
-- [React playground](./react-playground/react-playground.md)
+- [React guide](./react-guide/react-guide.md)
+- [React challenge](./react-challenge/react-challenge.md)
+- [React state guide](./react-state-guide/react-state-guide.md)
+- [React state challenge](./react-challenge/react-state-challenge.md)
 
 ## Backend
 
+### Databases
+
+- [Database design guide - MySQL](./db-guide/db-guide-mysql.md)
+- [Database design guide - PostgreSQL](./db-guide/db-guide-postgres.md)
 - [Database design challenge](./db-challenge/db-challenge.md)
+
+### API design
+
+- [API design guide](./api-guide/api-guide.md)
+- [API design challenge](./api-challenge/api-challenge.md)
+
+### Node.js and Express
+
+- [Node.js and Express guide](./node-express-guide/node-express-guide.md)
+- [Node.js and Express challenge](./node-express-challenge/node-express-challenge.md)
+
+### Python
+
 - [Python challenge](./python-challenge/python-challenge.md)
