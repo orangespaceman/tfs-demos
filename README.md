@@ -49,3 +49,7 @@ Demos and challenges for the TechNative Tech Finishing School (tfs)
 ### Python
 
 - [Python challenge](./python-challenge/python-challenge.md)
+
+## Git
+
+- [Git guide](./git-guide/git-guide.md)
