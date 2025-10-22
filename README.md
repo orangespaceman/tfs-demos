@@ -26,7 +26,7 @@ Demos and challenges for the TechNative Tech Finishing School (tfs)
 - [React guide](./react-guide/react-guide.md)
 - [React challenge](./react-challenge/react-challenge.md)
 - [React state guide](./react-state-guide/react-state-guide.md)
-- [React state challenge](./react-challenge/react-state-challenge.md)
+- [React state challenge](./react-state-challenge/react-state-challenge.md)
 
 ## Backend
 
